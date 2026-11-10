@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail Insight Agent Report</title><style>
+body{font-family:Arial,sans-serif;color:#17202a;margin:0;background:#f5f7f8}main{max-width:900px;margin:auto;padding:36px}
+.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.metric{background:white;border:1px solid #dfe6e9;padding:14px;border-radius:6px}
+.metric strong{display:block;font-size:21px;color:#0f766e;margin-top:8px}section{background:white;margin-top:16px;padding:20px;border:1px solid #dfe6e9;border-radius:6px}
+@media(max-width:720px){.metrics{grid-template-columns:repeat(2,1fr)}main{padding:16px}svg{width:100%;height:auto}}
+</style></head><body><main><h1>Retail Insight Agent Report</h1>
+<div class="metrics"><div class="metric">Net revenue<strong>34456.00</strong></div>
+<div class="metric">Orders<strong>543</strong></div><div class="metric">AOV<strong>63.45</strong></div>
+<div class="metric">Return rate<strong>4.4%</strong></div><div class="metric">Repeat rate<strong>100.0%</strong></div></div>
+<section><h2>Monthly trend</h2><svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="22" font-size="17" font-family="Arial" font-weight="bold">Monthly net revenue trend</text>
+<line x1="70" y1="255" x2="720" y2="255" stroke="#9ca3af"/>
+<line x1="70" y1="35" x2="70" y2="255" stroke="#9ca3af"/>
+<polyline points="70.0,48.0 200.0,55.3 330.0,39.7 460.0,35.0 590.0,47.8 720.0,89.5" fill="none" stroke="#0f766e" stroke-width="3"/>
+<circle cx="70.0" cy="48.0" r="4" fill="#0f766e"><title>5871.00</title></circle><circle cx="200.0" cy="55.3" r="4" fill="#0f766e"><title>5664.00</title></circle><circle cx="330.0" cy="39.7" r="4" fill="#0f766e"><title>6109.00</title></circle><circle cx="460.0" cy="35.0" r="4" fill="#0f766e"><title>6241.00</title></circle><circle cx="590.0" cy="47.8" r="4" fill="#0f766e"><title>5877.00</title></circle><circle cx="720.0" cy="89.5" r="4" fill="#0f766e"><title>4694.00</title></circle><text x="70.0" y="280" text-anchor="middle" font-size="12">2026-01</text><text x="200.0" y="280" text-anchor="middle" font-size="12">2026-02</text><text x="330.0" y="280" text-anchor="middle" font-size="12">2026-03</text><text x="460.0" y="280" text-anchor="middle" font-size="12">2026-04</text><text x="590.0" y="280" text-anchor="middle" font-size="12">2026-05</text><text x="720.0" y="280" text-anchor="middle" font-size="12">2026-06</text>
+<text x="14" y="145" font-size="12" transform="rotate(-90 14 145)">Net revenue</text>
+</svg></section><section><h2>Revenue decline anomalies</h2><ul><li>United Kingdom: 1948.00 -&gt; 618.00 (-68.3%); likely drivers: units sold decreased 60.6%; return rate increased 16.7% points</li></ul></section>
+<section><h2>Method</h2><p>Deterministic calculations are executed by Python tools. Agent planning, tool arguments, results, duration, and failures are retained in SQLite.</p></section>
+</main></body></html>

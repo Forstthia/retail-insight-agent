@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.test-tmp/
+.test-work/
+outputs/*
+!outputs/.gitkeep
+runtime/*.db
+
+# personal interview notes (not for publishing)
+docs/interview-guide.md
+docs/interview-prep-notes.md

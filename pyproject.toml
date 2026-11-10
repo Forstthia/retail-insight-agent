@@ -1,0 +1,10 @@
+[project]
+name = "retail-insight-agent"
+version = "0.1.0"
+description = "Observable multi-tool retail data analysis agent"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["retail_agent"]
+
